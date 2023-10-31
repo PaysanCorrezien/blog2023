@@ -1,0 +1,89 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #363647;
+  --ifm-color-primary-dark: #31314f;
+  --ifm-color-primary-darker: #3e2e3c;
+  --ifm-color-primary-darkest: #262632;
+  --ifm-color-primary-light: #4b3b4d;
+  --ifm-color-primary-lighter: #4e3e51;
+  --ifm-color-primary-lightest: #46466b;
+  --ifm-background-color: #e2d1b2;
+  --ifm-code-font-size: 96%;
+  --docusaurus-highlighted-code-line-bg: rgba(1, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #c1a36e;
+  --ifm-color-primary-dark: #b79660;
+  --ifm-color-primary-darker: #b29f4e;
+  --ifm-color-primary-darkest: #937641;
+  --ifm-color-primary-light: #c10b083;
+  --ifm-color-primary-lighter: #ceb79e;
+  --ifm-color-primary-lightest: #dbcbad;
+  --ifm-background-color: #162032;
+  --docusaurus-highlighted-code-line-bg: rgba(1, 0, 0, 0.3);
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-code-font-size: 95%;
+  --ifm-button-border-color: var(--ifm-color-primary);
+  --ifm-navbar-search-input-background-color: #1F1F28; /* Kanagawa: sumiInk1 */
+  --ifm-navbar-search-input-color: #DCD7BA; /* Kanagawa: fujiWhite */
+  --ifm-navbar-search-input-placeholder-color: #C8C093; /* Kanagawa: oldWhite */
+  --ifm-navbar-link-color: #C8C093;
+  --ifm-heading-color: #b28f4e;
+  --ifm-navbar-link-hover-color: #937640;
+  --ifm-color-emphasis-500: #C8C093; /* Kanagawa: oldWhite */
+}
+
+html[data-theme='light'] {
+  --primary-bg: #e5ddb0; /* Kanagawa: lotusWhite2 */
+  --primary-fg: #545464; /* Kanagawa: lotusInk1 */
+  /* --docusaurus-highlighted-code-line-bg: hsl(49.57deg 38.98% 88.43%); */
+--ifm-navbar-background-color: #E6C384;
+  --ifm-navbar-link-color: #54546D;
+  --ifm-heading-color: #658594;
+  --ifm-navbar-link-hover-color: #252535;
+}
+
+html[data-theme='dark'] {
+  --primary-bg: #162032; /* Kanagawa: waveBlue1 */
+  --primary-fg: #2D4F67; /* Kanagawa: waveBlue2 */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0;
+}
+
+.social path {
+  fill: var(--primary-fg);
+}
+
+.social:hover path {
+  fill: var(--ifm-color-primary);
+}
+
+@media screen and (max-width: 996px) {
+  .social {
+    display: none;
+  }
+}
+
