@@ -1,0 +1,45 @@
+[
+  {
+    "permalink": "docs\\docs\\adoc"
+  },
+  {
+    "permalink": "docs\\KnowledgeBase\\2"
+  },
+  {
+    "permalink": "docs\\KnowledgeBase\\how to cry"
+  },
+  {
+    "slug": "TechStack",
+    "permalink": "docs\\KnowledgeBase\\index"
+  },
+  {
+    "permalink": "docs\\KnowledgeBase\\One"
+  },
+  {
+    "permalink": "docs\\Projects\\Politics"
+  },
+  {
+    "permalink": "docs\\Projects\\WslContextmenu"
+  },
+  {
+    "id": "doc-with-tags",
+    "title": "A doc with tags",
+    "tags": [
+      "Demo",
+      "Getting started"
+    ],
+    "permalink": "docs\\TechStack\\Neovim"
+  },
+  {
+    "id": "doc-with-tags",
+    "title": "Chezmoi - Dotfiles management",
+    "tags": [
+      "Demo",
+      "Getting started"
+    ],
+    "permalink": "docs\\TechStack\\Terminal\\Chezmoi"
+  },
+  {
+    "permalink": "docs\\TechStack\\Terminal\\fzf"
+  }
+]
